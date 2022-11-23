@@ -229,7 +229,7 @@ export default function Home() {
         </div>
       </main>
       <footer className={styles.footer}>
-        <p> Note that the smart contract is on the Goerli Testnet. Please acquire GoerliETH through a faucet to test app.</p>
+        <p> Please connect MetaMask Wallet to test application. Note that the smart contract is on the Goerli Testnet. Please acquire GoerliETH through the Goerli faucet to test app.</p>
       </footer>
     </div>
   )
