@@ -182,7 +182,7 @@ export default function Home() {
                             return (
                               <div key={index} className="history-entry">
                                 <div>Lottery #{item.id} winner: </div>
-                                <div><a href={`https://etherscan.io/address/${item.address}`} target="_blank">{item.address}</a></div>
+                                <div><a href={`https://etherscan.io/address/${item.address}`} target="_blank" rel="noreferrer">{item.address} </a></div>
                               </div>
                             )}
                           })
@@ -203,7 +203,7 @@ export default function Home() {
                           {(players && players.length > 0) ? players.map((player, index) => {
                               return(
                               <li key={index}>
-                                <a href={`https://etherscan.io/address/${player}`} target="_blank">{player}</a>
+                                <a href={`https://etherscan.io/address/${player}`} target="_blank" rel="noreferrer">{player}</a>
                               </li>)
                             }) : console.log(players)
                           }
